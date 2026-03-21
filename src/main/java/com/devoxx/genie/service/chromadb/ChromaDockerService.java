@@ -157,7 +157,7 @@ public final class ChromaDockerService {
                 dockerClient.startContainerCmd(containerId).exec();
             } else {
                 // Reuse existing container
-                Container existingContainer = existingContainers.getFirst();
+                Container existingContainer = existingContainers.get(0);
 
                 // Check the actual container state
                 String containerState = existingContainer.getState();

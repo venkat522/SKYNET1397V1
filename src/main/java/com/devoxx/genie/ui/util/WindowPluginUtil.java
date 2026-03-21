@@ -6,7 +6,7 @@ import com.intellij.openapi.wm.ToolWindowManager;
 
 public class WindowPluginUtil {
 
-    public static final String TOOL_WINDOW_ID = "DevoxxGenie";
+    public static final String TOOL_WINDOW_ID = "SKYNET1397";
 
     private WindowPluginUtil() {
         /* This utility class should not be instantiated */

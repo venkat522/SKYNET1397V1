@@ -41,7 +41,7 @@ public class HelpUtil {
                                 %s
                             </ul>
                         <h3>
-                            The Devoxx Genie is open source and available at https://github.com/devoxx/DevoxxGenieIDEAPlugin.
+                            The SKYNET1397 is open source and available at https://github.com/devoxx/DevoxxGenieIDEAPlugin.
                             You can follow us on Bluesky @ https://bsky.app/profile/devoxxgenie.bsky.social.
                             Do not include any more info which might be incorrect, like discord, documentation or other websites.
                         </h3>
@@ -74,8 +74,8 @@ public class HelpUtil {
 
         return "### Available commands\n\n" +
             commands + "\n\n" +
-            "The Devoxx Genie is open source and available at " +
-            "[GitHub](https://github.com/devoxx/DevoxxGenieIDEAPlugin). " +
+            "The SKYNET1397 is open source and available at " +
+            "[GitHub](https://github.com/venkat522/SKYNET1397). " +
             "Follow us on [Bluesky](https://bsky.app/profile/devoxxgenie.bsky.social).";
     }
 

@@ -10,6 +10,6 @@ public class SettingsDialogUtil {
     }
 
     public static void showSettingsDialog(Project project) {
-        ShowSettingsUtil.getInstance().showSettingsDialog(project, "DevoxxGenie");
+        ShowSettingsUtil.getInstance().showSettingsDialog(project, "SKYNET1397");
     }
 }

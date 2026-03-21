@@ -33,7 +33,7 @@ val binaryIncompatibleRuntimeJarPatterns = listOf(
     "kotlinx-coroutines-core-*.jar",
     "kotlinx-coroutines-core-jvm-*.jar"
 )
-val packagedPluginDirName = "DevoxxGenie"
+val packagedPluginDirName = "SKYNET1397"
 val pluginVerifierCommunityIdeVersions = listOf(
     "2025.1.7",   // 251 line
     "2025.2.6.1"  // 252 line
@@ -119,6 +119,15 @@ tasks.register("updateProperties") {
 
 tasks.named("buildPlugin") {
     dependsOn("updateProperties")
+    doLast {
+        // Rename the plugin zip file to use SKYNET1397 instead of DevoxxGenie
+        val distributionsDir = layout.buildDirectory.dir("distributions").get()
+        val oldFile = distributionsDir.file("DevoxxGenie-${version}.zip").asFile
+        val newFile = distributionsDir.file("SKYNET1397-${version}.zip").asFile
+        if (oldFile.exists() && !newFile.exists()) {
+            oldFile.renameTo(newFile)
+        }
+    }
 }
 
 dependencies {

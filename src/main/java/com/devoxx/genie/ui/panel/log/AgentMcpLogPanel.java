@@ -350,7 +350,7 @@ public class AgentMcpLogPanel extends SimpleToolWindowPanel implements ActivityL
                 sb.append("⚠ LOOP LIMIT REACHED (").append(message.getMaxCalls()).append(" calls)");
                 break;
             case APPROVAL_REQUESTED:
-                sb.append("❓ Approval requested for ").append(message.getToolName());
+                sb.append("? Approval requested for ").append(message.getToolName());
                 break;
             case APPROVAL_GRANTED:
                 sb.append("✔ Approval granted for ").append(message.getToolName());
@@ -376,7 +376,7 @@ public class AgentMcpLogPanel extends SimpleToolWindowPanel implements ActivityL
     private void formatToolRequest(@NotNull StringBuilder sb, @NotNull ActivityMessage message) {
         sb.append("▶ ").append(message.getToolName());
         if (message.getArguments() != null) {
-            sb.append(" ← ").append(message.getArguments().replace("\n", " "));
+            sb.append(" <- ").append(message.getArguments().replace("\n", " "));
         }
     }
 

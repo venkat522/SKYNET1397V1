@@ -54,7 +54,7 @@ public class StdioTransportPanel implements TransportPanel {
         gbc.gridx = 1;
         gbc.gridy = row++;
         gbc.weightx = 0.0;
-        panel.add(new JLabel("⚠️Use full path to your command"), gbc);
+        panel.add(new JLabel("Use full path to your command"), gbc);
 
         // Arguments area with fixed-width label
         JLabel argumentsLabel = new JLabel("Arguments:");
