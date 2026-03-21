@@ -10,7 +10,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 const softwareSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
-  'name': 'DevoxxGenie',
+  'name': 'SKYNET1397',
   'applicationCategory': 'DeveloperApplication',
   'operatingSystem': 'Windows, macOS, Linux',
   'offers': {
@@ -19,7 +19,7 @@ const softwareSchema = {
     'priceCurrency': 'USD'
   },
   'description': 'A fully Java-based LLM Code Assistant plugin for IntelliJ IDEA, designed to integrate with both local and cloud-based LLM providers.',
-  'screenshot': 'https://genie.devoxx.com/img/devoxxgenie-social-card.jpg',
+  'screenshot': 'https://genie.devoxx.com/img/SKYNET1397-social-card.jpg',
   'softwareVersion': '0.9.13',
   'author': {
     '@type': 'Organization',
@@ -35,25 +35,25 @@ function HomepageHeader() {
   return (
     <header className={styles.heroBanner}>
       <video
-        aria-label="DevoxxGenie AI code assistant plugin demo"
-        poster={useBaseUrl('/img/devoxxgenie-hero-poster.jpg')}
+        aria-label="SKYNET1397 AI code assistant plugin demo"
+        poster={useBaseUrl('/img/SKYNET1397-hero-poster.jpg')}
         autoPlay
         loop
         muted
         playsInline
         preload="none"
         className={styles.heroVideo}>
-        <source src={useBaseUrl('/img/DevoxxGenie.webm')} type="video/webm;codecs=vp9" />
-        <source src={useBaseUrl('/img/DevoxxGenie.mp4')} type="video/mp4;codecs=avc1.42E01E" />
+        <source src={useBaseUrl('/img/SKYNET1397.webm')} type="video/webm;codecs=vp9" />
+        <source src={useBaseUrl('/img/SKYNET1397.mp4')} type="video/mp4;codecs=avc1.42E01E" />
       </video>
       <div className={styles.heroOverlay}>
-        <h1 className="hero__title">DevoxxGenie — Free AI Code Assistant for IntelliJ IDEA</h1>
+        <h1 className="hero__title">SKYNET1397 — Free AI Code Assistant for IntelliJ IDEA</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
           className="button button--primary button--lg"
           to={useBaseUrl('/docs/getting-started/introduction')}>
-          Get Started with DevoxxGenie
+          Get Started with SKYNET1397
           </Link>
         </div>
       </div>
@@ -72,13 +72,13 @@ export default function Home() {
       </Head>
       <HomepageHeader />
       <div style={{background: 'var(--ifm-color-primary)', padding: '0.6rem 1rem', textAlign: 'center', color: '#fff', fontSize: '0.95rem'}}>
-        Learn hands-on with the founder of DevoxxGenie —{' '}
-        <a href="https://stephanjanssen.be?utm_source=DevoxxGenie&utm_medium=banner&utm_campaign=agentic_workshop" target="_blank" rel="noopener noreferrer" style={{color: '#fff', fontWeight: 'bold', textDecoration: 'underline'}}>
+        Learn hands-on with the founder of SKYNET1397 —{' '}
+        <a href="https://stephanjanssen.be?utm_source=SKYNET1397&utm_medium=banner&utm_campaign=agentic_workshop" target="_blank" rel="noopener noreferrer" style={{color: '#fff', fontWeight: 'bold', textDecoration: 'underline'}}>
           Agentic Engineering Workshop
         </a>
         {' '}or{' '}
-        <a href="https://stephanjanssen.be?utm_source=DevoxxGenie&utm_medium=banner&utm_campaign=devoxxgenie_workshop" target="_blank" rel="noopener noreferrer" style={{color: '#fff', fontWeight: 'bold', textDecoration: 'underline'}}>
-          DevoxxGenie Workshop
+        <a href="https://stephanjanssen.be?utm_source=SKYNET1397&utm_medium=banner&utm_campaign=SKYNET1397_workshop" target="_blank" rel="noopener noreferrer" style={{color: '#fff', fontWeight: 'bold', textDecoration: 'underline'}}>
+          SKYNET1397 Workshop
         </a>
       </div>
       <main>
@@ -87,18 +87,18 @@ export default function Home() {
             <div className="col col--6">
               <h2>The Power of AI in Your IDE</h2>
               <p>
-                DevoxxGenie is a fully Java-based LLM Code Assistant plugin for IntelliJ IDEA, designed to integrate with both local and cloud-based LLM providers.
+                SKYNET1397 is a fully Java-based LLM Code Assistant plugin for IntelliJ IDEA, designed to integrate with both local and cloud-based LLM providers.
               </p>
               <p>
-                With DevoxxGenie, developers can leverage the power of artificial intelligence to improve code quality, solve problems faster, and learn new concepts, all within their familiar IDE environment.
+                With SKYNET1397, developers can leverage the power of artificial intelligence to improve code quality, solve problems faster, and learn new concepts, all within their familiar IDE environment.
               </p>
               <p>
-                <strong>100% Open Source and Free</strong> - DevoxxGenie is completely open source and free to use, following the BYOK (Bring Your Own Keys) model for LLM API keys.
+                <strong>100% Open Source and Free</strong> - SKYNET1397 is completely open source and free to use, following the BYOK (Bring Your Own Keys) model for LLM API keys.
               </p>
               <div className={styles.buttons}>
                 <Link
                   className="button button--primary button--md"
-                  to="https://plugins.jetbrains.com/plugin/24169-devoxxgenie">
+                  to="https://plugins.jetbrains.com/plugin/24169-SKYNET1397">
                   Download from JetBrains Marketplace
                 </Link>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
                 >
                   <img
                     src="https://img.youtube.com/vi/t1MOHCfsdvk/maxresdefault.jpg"
-                    alt="DevoxxGenie AI Code Assistant demo video for IntelliJ IDEA"
+                    alt="SKYNET1397 AI Code Assistant demo video for IntelliJ IDEA"
                     style={{width: '100%', display: 'block', borderRadius: '8px'}}
                   />
                   <div style={{
@@ -192,7 +192,7 @@ milestone: v2.0
             <div className="col col--6">
               <h2>Advanced MCP Support</h2>
               <p>
-                DevoxxGenie implements Model Context Protocol (MCP) support, which enables advanced agent-like capabilities, allowing the LLM to access external tools and services to provide more comprehensive and accurate responses.
+                SKYNET1397 implements Model Context Protocol (MCP) support, which enables advanced agent-like capabilities, allowing the LLM to access external tools and services to provide more comprehensive and accurate responses.
               </p>
               <p>
                 <strong>Built-in MCP Marketplace:</strong> Browse, search, and install MCP servers directly from within IntelliJ IDEA. Discover tools for filesystem access, databases, web browsing, and more — all without leaving your IDE.
@@ -270,7 +270,7 @@ milestone: v2.0
                 Execute prompts and spec tasks via external CLI tools like <strong>Claude Code</strong>, <strong>GitHub Copilot</strong>, <strong>OpenAI Codex</strong>, <strong>Google Gemini CLI</strong>, and <strong>Kimi</strong> — directly from the chat interface or the Spec Browser.
               </p>
               <p>
-                <strong>Chat Mode:</strong> Select a CLI runner as your provider and chat naturally. DevoxxGenie routes your prompts to the external CLI tool and streams the response back into the conversation.
+                <strong>Chat Mode:</strong> Select a CLI runner as your provider and chat naturally. SKYNET1397 routes your prompts to the external CLI tool and streams the response back into the conversation.
               </p>
               <p>
                 <strong>Spec Task Execution:</strong> Run individual or batch spec tasks through any configured CLI runner. Combined with the Agent Loop, you can delegate entire task backlogs to your preferred coding assistant.
@@ -297,11 +297,11 @@ milestone: v2.0
           <div className="row">
             <div className="col col--6">
               <Link
-                to="/blog/devoxxgenie-plugin-integrations"
+                to="/blog/SKYNET1397-plugin-integrations"
                 style={{display: 'block', position: 'relative', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0,0,0,0.1)'}}>
                 <img
                   src={useBaseUrl('/img/integrations/sonarlint-banner.webp')}
-                  alt="DevoxxGenie Plugin Integrations"
+                  alt="SKYNET1397 Plugin Integrations"
                   style={{width: '100%', display: 'block', borderRadius: '8px'}}
                 />
               </Link>
@@ -309,18 +309,18 @@ milestone: v2.0
             <div className="col col--6">
               <h2>Plugin Integration API</h2>
               <p>
-                DevoxxGenie exposes a lightweight runtime API that other IntelliJ plugins can use to interact with it — no hard compile-time dependency required. Detect DevoxxGenie via <code>PluginManagerCore</code>, send prompts via reflection, or write structured <code>TASK-*.md</code> files for deferred AI-assisted resolution.
+                SKYNET1397 exposes a lightweight runtime API that other IntelliJ plugins can use to interact with it — no hard compile-time dependency required. Detect SKYNET1397 via <code>PluginManagerCore</code>, send prompts via reflection, or write structured <code>TASK-*.md</code> files for deferred AI-assisted resolution.
               </p>
               <p>
-                <strong>SonarLint DevoxxGenie:</strong> A fork of SonarLint v11.13 that adds three entry points for AI-assisted fixes — Alt+Enter intention action, rule panel button, and batch task creation for the SDD workflow.
+                <strong>SonarLint SKYNET1397:</strong> A fork of SonarLint v11.13 that adds three entry points for AI-assisted fixes — Alt+Enter intention action, rule panel button, and batch task creation for the SDD workflow.
               </p>
               <p>
-                <strong>SpotBugs DevoxxGenie:</strong> A fork of the JetBrains SpotBugs plugin that sends bug findings directly to DevoxxGenie with full context — pattern ID, category, priority, and ±10 lines of code.
+                <strong>SpotBugs SKYNET1397:</strong> A fork of the JetBrains SpotBugs plugin that sends bug findings directly to SKYNET1397 with full context — pattern ID, category, priority, and ±10 lines of code.
               </p>
               <div className={styles.buttons} style={{justifyContent: 'flex-start', marginTop: '10px', gap: '10px'}}>
                 <Link
                   className="button button--primary button--md"
-                  to="/blog/devoxxgenie-plugin-integrations">
+                  to="/blog/SKYNET1397-plugin-integrations">
                   Read the Blog Post
                 </Link>
                 <Link
@@ -337,7 +337,7 @@ milestone: v2.0
             <div className="col col--6">
               <h2>Security Scanning</h2>
               <p>
-                DevoxxGenie integrates three best-in-class open-source security scanners as <strong>LLM agent tools</strong> — so your AI assistant can actively find and help fix security issues in your codebase.
+                SKYNET1397 integrates three best-in-class open-source security scanners as <strong>LLM agent tools</strong> — so your AI assistant can actively find and help fix security issues in your codebase.
               </p>
               <p>
                 <strong>Gitleaks</strong> detects hardcoded secrets, API keys and tokens. <strong>OpenGrep</strong> performs SAST analysis to catch injection flaws and insecure patterns. <strong>Trivy</strong> scans your dependencies for known CVEs.
@@ -361,8 +361,8 @@ milestone: v2.0
         <div className="container home-section">
           <div className="row">
             <div className="col col--12 text--center">
-              <h2>Start Using DevoxxGenie Today</h2>
-              <p>Join over 45,000 developers who are already using DevoxxGenie to improve their productivity.</p>
+              <h2>Start Using SKYNET1397 Today</h2>
+              <p>Join over 45,000 developers who are already using SKYNET1397 to improve their productivity.</p>
               <p><em>100% free and open source with no hidden costs - just bring your own API keys (BYOK)!</em></p>
               <div className={styles.buttons} style={{marginTop: '20px'}}>
                 <Link

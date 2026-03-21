@@ -78,7 +78,7 @@ fun WelcomeScreen(
         Spacer(Modifier.height(4.dp))
 
         BasicText(
-            text = "Welcome to DevoxxGenie",
+            text = "Welcome to SKYNET1397",
             style = typography.h5.copy(
                 fontWeight = FontWeight.Bold,
                 color = DevoxxOrange,
